@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(234, 235, 237);
+}
+
+main{
+    width:500px;
+    height:500px;
+    /* Jei norime teisingai išcentruoti elementą ( 100% ( Š.A 1700) viso ekrano pločio atimti elemento ploto (šiuo atveju 500) ir daliname iš 2-jų= margin 600 )*/
+    margin-left: calc((100% - 500px)/2);
+    /* galimi margin užrašymo būdai */
+    /* margin: 20px; */
+    /* margin: 20px 40px; */
+    /* margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 60px; */
+    display: inline-block;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* Dalykai kurie kartojasi galime sutraukti ir gauti tą patį norim1 rezultatą */
+
+/* main > div{
+    height: 500px;
+    width: 250px;
+    display: inline-block;
+    float: left
+}
+
+#left{  
+    background-color: grey; 
+}
+
+#right{
+    background-color: rgb(139, 45, 45);  
+} */
+
+#left{
+    height: 500px;
+    width: 55%;
+    /* background-color: grey; */
+    display: inline-block;
+    float: left;
+}
+
+img{
+    width: 90%;
+}
+
+#right{
+    height: 500px;
+    width: 45%;
+    /* background-color: rgb(139, 45, 45); */
+    display: inline-block;
+    text-align: center;
+    float: left;
+    color: rgb(71, 79, 90);
+}
+
+
+h1{
+    font-size: 48px;
+}
+
+p{
+ color: rgb(105, 111, 137);
+}
+
+#textMedium{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#textSmall{
+    font-size: 12px;
+    font-weight: 900px;
+}
+
+button{
+    padding: 10px 28px;
+    background-color: rgb(105, 111, 137); ;
+    color: rgb(245, 245, 245);
+    border: 0;
+    font-weight: 700px;
+}
